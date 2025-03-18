@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamim to Mahi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="background-music" autoplay loop>
+        <source src="romantic-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="letter-container">
+        <div class="letter">
+            <h1 id="typewriter">My Dearest Mahi,</h1>
+            <p id="letter-content"></p>
+            <p class="signature" id="signature"></p>
+        </div>
+
+        <!-- Photo Gallery -->
+        <div class="gallery">
+            <img src="imges/pic.jpg.jpeg" alt="Our Memory 1">
+            <img src="imges/pic4.jpg.jpg" alt="Our Memory 2">
+            <img src="imges/pic2.jpg.jpg" alt="Our Memory 3">
+        </div>
+
+        <!-- Countdown Timer -->
+        <div id="countdown">
+            <h3>Countdown to Our Next Meeting:</h3>
+            <div id="timer">
+                <span id="days"></span> Days
+                <span id="hours"></span> Hours
+                <span id="minutes"></span> Minutes
+                <span id="seconds"></span> Seconds
+            </div>
+        </div>
+
+        <!-- Reveal Button -->
+        <button id="reveal-button">Click for a Surprise!</button>
+        <p id="hidden-message" class="hidden">You are the most beautiful part of my life. I love you endlessly. ❤️</p>
+    </div>
+
+    <!-- Heart Animation -->
+    <div id="heart-container"></div>
+
+    <!-- Confetti Animation -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
